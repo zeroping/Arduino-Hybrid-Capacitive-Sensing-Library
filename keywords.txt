@@ -1,0 +1,3 @@
+CapacitiveSensing	KEYWORD1
+hybridSense	KEYWORD2
+capacitiveSense	KEYWORD2
