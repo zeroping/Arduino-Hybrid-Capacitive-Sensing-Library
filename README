@@ -1,0 +1,14 @@
+
+This is a quick little capacitive sensing library for Arduino. 
+
+It can sense the capacitcance between a pin and GND using an external pull-up or pull-down resistor. The function prototype is:
+
+    int capacitiveSense(uint8_t pullup, uint8_t pin);
+
+It can also do a form of hybrid resistive-capactive sensing sensing touch between two pins:
+
+    int hybridSense(uint8_t pullup, uint8_t sense, uint8_t excitation);
+
+Both of these functions expect you to use an external pull-up or pull-down, so it _GLOBALLY_ disables the built-in pull-up resistors on the microcontroller.
+
+
